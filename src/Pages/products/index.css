@@ -1,0 +1,13 @@
+.max-width{
+    
+    margin: 0px auto;
+}
+
+.grid{
+    
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}

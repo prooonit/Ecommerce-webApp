@@ -1,0 +1,109 @@
+/* Add your general styles here */
+
+.checkout-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .checkout-items {
+    margin-top: 20px;
+  }
+  
+  .checkout-item {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .item-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(251 ,191 ,36);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .remove {
+    color:  rgb(251 ,191 ,36);
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .order-summary {
+    margin-top: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .confirm-btn {
+    background-color: rgb(251 ,191 ,36);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: rgb(251 ,191 ,36);
+  }
+  
+  /* Responsive styles - adjust as needed */
+  @media (max-width: 767px) {
+    .checkout-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .item-image img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
