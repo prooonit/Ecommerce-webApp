@@ -26,7 +26,7 @@ const NavBar = ({onSearch ,cartItemCount}) => {
             name="gsearch"
             className='border p-2 rounded'
           />
-          <button className='px-3 py-1 ml-3 rounded-lg bg-white' type='submit' onClick={()=>{
+          <button className='px-3 py-1 ml-3 rounded-lg bg-white text-black' type='submit' onClick={()=>{
             if(search.trim().length){
               onSearch(search.trim())
             }
