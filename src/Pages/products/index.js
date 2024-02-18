@@ -38,9 +38,10 @@ const Products = () => {
 
     return (
         <>
-            <div className="container  max-width">
-                <div className="products my-5 w-full">
-                    <div className="grid">
+        <div className="container mx-auto">
+    <div className="products my-5 w-full flex justify-center items-center">
+        <div className="grid justify-items-center">
+                   
                     {loading ? (
                             alert("content is Loading")
                         ) : (
@@ -49,6 +50,7 @@ const Products = () => {
                                <Item key={product.id} data={product} addToCart={()=>addToCart(product)}/>
                             ))
                         )}
+                       
                     </div>
                 </div>
             </div>

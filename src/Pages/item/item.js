@@ -17,7 +17,7 @@ const Item = ({data, addToCart}) => {
     }
 
   return (
-    <div className="w-60 h-80 mx-3 my-5 " >
+    <div className="w-60 h-80 mx-3 my-5  " >
       <div className="w-60 h-60">
 
        <img src={image} alt={title} className="w-60 h-60 object-contain"/>
